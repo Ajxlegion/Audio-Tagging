@@ -14,7 +14,7 @@ Audio tagging is the task of assigning one or more labels to an audio clip, indi
 
 ## Workflow
 
-```mermaid
+```
     A[Audio File] --> B(BERT for Audio Features);
     B --> C(Graph Construction);
     C --> D[Graph Neural Network (GNN)];
@@ -23,5 +23,7 @@ Audio tagging is the task of assigning one or more labels to an audio clip, indi
 
 ## Install dependencies
 
- cd audio-tagging-bert-gnn
+```
+cd audio-tagging-bert-gnn
 pip install -r requirements.txt
+```
